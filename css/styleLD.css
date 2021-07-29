@@ -1,0 +1,164 @@
+.container {
+    box-shadow: 1px 1px 30px black;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+button:hover {
+    background-color: rgb(151, 199, 222);
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.notifdiv {
+    border: 1px dotted black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color: #EEF;
+    width: 40%;
+}
+
+.notif,
+span {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #EEF;
+    text-align: right;
+    width: 170px;
+    height: 6%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+fieldset {
+    background-color: #EEF;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+form {
+    text-align: center;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    height: 30%;
+}
+
+input[name="pasEncore"] {
+    width: 20px;
+    height: 20px;
+    /* dim. de la case */
+    border: 5px solid red;
+    background: white;
+    border-radius: 3px;
+    /* angles arrondis */
+    box-shadow: inset 0 1px 3px blue;
+    /* légère ombre interne */
+}
+
+input[name="refuser"] {
+    width: 20px;
+    height: 20px;
+    /* dim. de la case */
+    border: 5px solid red;
+    background: white;
+    border-radius: 3px;
+    /* angles arrondis */
+    box-shadow: inset 0 1px 3px red;
+    /* légère ombre interne */
+}
+
+input[name="accepter"] {
+    width: 20px;
+    height: 20px;
+    /* dim. de la case */
+    border: 5px solid red;
+    background: white;
+    border-radius: 3px;
+    /* angles arrondis */
+    box-shadow: inset 0 3px 3px green;
+    /* légère ombre interne */
+}
+
+input[value="Confirmer"] {
+    height: 20px;
+    margin-left: 8px;
+}
+
+table {
+    border-color: rgb(151, 199, 222);
+}
+
+.choix {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[value="Demandes En attente"] {
+    height: 50px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: right;
+    background-image: url('IM/att.png');
+    background-color: #EEF;
+}
+
+input[value="Demandes Acceptées"] {
+    height: 50px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: right;
+    background-image: url('IM/ok.png');
+    background-color: #EEF;
+}
+
+input[value="Demandes Refusées"] {
+    height: 50px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: right;
+    background-image: url('IM/no.png');
+    background-color: #EEF;
+}
+
+input[value="Toutes les demandes"] {
+    height: 50px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: right;
+    background-image: url('IM/tt.png');
+    background-color: #EEF;
+}

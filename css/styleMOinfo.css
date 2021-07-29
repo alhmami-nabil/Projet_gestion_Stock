@@ -1,0 +1,89 @@
+.container {
+    box-shadow: 1px 1px 30px black;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+button:hover {
+    background-color: rgb(8, 136, 29);
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.notifdiv {
+    border: 1px dotted black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color: #EEF;
+    width: 40%;
+}
+
+.notif,
+span {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #EEF;
+    text-align: right;
+    width: 170px;
+    height: 6%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.submit {
+    text-align: center;
+}
+
+input[Value="Valider les Modifications"] {
+    height: 50px;
+    width: 190px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: right;
+    background-image: url('IM/ok.png');
+    background-color: #EEF;
+}
+
+fieldset {
+    background-color: #EEF;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.confirm {
+    text-align: center;
+    margin-top: 0px;
+    ;
+    margin-bottom: 1em;
+    color: ;
+    border: 1px solid #a2d246;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebf8a4;
+}

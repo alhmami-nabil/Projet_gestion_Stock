@@ -1,0 +1,90 @@
+.container {
+    box-shadow: 1px 1px 30px black;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+button:hover {
+    background-color: rgb(151, 199, 222);
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.notifdiv {
+    border: 1px dotted black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color: #EEF;
+    width: 40%;
+}
+
+.notif,
+span {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #EEF;
+    text-align: right;
+    width: 170px;
+    height: 6%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+fieldset {
+    background-color: #EEF;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.confirm {
+    text-align: center;
+    margin-top: 0px;
+    ;
+    margin-bottom: 1em;
+    color: ;
+    border: 1px solid #a2d246;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebf8a4;
+}
+
+table {
+    border-color: rgb(151, 199, 222);
+}
+
+input[value="Chercher"] {
+    background-color: #EEF;
+    text-align: right;
+    width: 100px;
+    margin-left: 2em;
+    height: 6%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url('IM/search.png');
+}

@@ -1,0 +1,88 @@
+.container {
+    box-shadow: 1px 1px 30px black;
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+button:hover {
+    background-color: rgb(232, 221, 250);
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.notifdiv {
+    border: 1px dotted black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color: #EEF;
+    width: 40%;
+}
+
+.notif,
+span {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #EEF;
+    text-align: right;
+    width: 170px;
+    height: 6%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+fieldset {
+    background-color: #EEF;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.submit {
+    text-align: center;
+}
+
+input[Value="Ajouter le personnel"] {
+    height: 50px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-align: center;
+    background-image: url('IM/add.png');
+    background-color: rgb(232, 221, 250);
+}
+
+.confirm {
+    text-align: center;
+    margin-top: 0px;
+    ;
+    margin-bottom: 1em;
+    border: 1px solid #a2d246;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebf8a4;
+}
